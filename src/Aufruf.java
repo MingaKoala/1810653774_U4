@@ -33,11 +33,11 @@ public class Aufruf {
         //Aufabe 5
         List<Paperbook> paperbooks = new ArrayList<>();
 
-        paperbooks.add(new Paperbook(200, date, "My Paperbook 1", "0000-00000-0000", "blabla", "April")); //add element einfügen mit oder ohne positionsangabe
-        paperbooks.add(new Paperbook(210, date, "My Paperbook 2", "0000-00000-0000", "blabla", "April"));
-        paperbooks.add(new Paperbook(240, date, "My Paperbook 3", "0000-00000-0000", "blabla", "January"));
-        paperbooks.add(new Paperbook(100, date, "My Paperbook 4", "0000-00000-0000", "blabla", "March"));
-        paperbooks.add(new Paperbook(140, date, "My Paperbook 5", "0000-00000-0000", "blabla", "October"));
+        paperbooks.add(new Paperbook(200, date, "My Paperbook 1", "0000-00000-0000", "Serie", "April")); //add element einfügen mit oder ohne positionsangabe
+        paperbooks.add(new Paperbook(210, date, "My Paperbook 2", "0000-00000-0000", "Serie", "April"));
+        paperbooks.add(new Paperbook(240, date, "My Paperbook 3", "0000-00000-0000", "Serie", "January"));
+        paperbooks.add(new Paperbook(100, date, "My Paperbook 4", "0000-00000-0000", "Serie", "March"));
+        paperbooks.add(new Paperbook(140, date, "My Paperbook 5", "0000-00000-0000", "Serie", "October"));
 
         System.out.println("\nAufgabe 5:");
 
